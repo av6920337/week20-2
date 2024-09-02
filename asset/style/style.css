@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header, span{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.main{
+    width: 100%;
+    max-width: 540px;
+    /* background:#fff; */
+    /* background:#052F6D;
+    opacity: 0.5;  */
+    margin: 100px auto 20px;
+    padding:40px 30px 70px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.select,input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/1287456867/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%87%D0%B8%D1%81%D1%82%D0%BE%D0%B5-%D0%BD%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%BD%D0%B5%D0%B1%D0%BE-%D1%81-%D0%BC%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%BC-%D0%BF%D1%83%D1%82%D0%B5%D0%BC-%D0%B8-%D0%BE%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D1%8B%D0%BC-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%BC-%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4.jpg?s=612x612&w=0&k=20&c=PzySAq07jNInP1LXfqEm6qK0fjdOO7eM6ADKVbQGrfs=");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
